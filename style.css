@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(35, 45, 65,1); /* Botar alguma imagem de fundo*/
+    color: aliceblue;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.blocoPrincipal {
+    background-color: rgba(85, 100, 115, 1);
+    border: 1px solid aliceblue;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 60%;
+    width: 50%;
+
+    justify-content: space-evenly;
+    box-shadow: 0.75rem 0.75rem rgba(0, 0, 0, 0.25);
+
+}
+
+
+.blocoTexto {
+    text-shadow: 2px 2px rgba(0, 255, 255, 0.2);
+}
+
+.blocoPrincipal img {
+    width: 80px;
+}
+
+.blocoBotoes {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blocoBotoes button {
+    margin: 1.5rem;
+    width: 50%;
+    height: 50%;
+    font-size: large;
+    border-radius: 1rem;
+    border: 1px solid aliceblue;
+    cursor: pointer;
+
+    color: aliceblue;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.15);
+
+}
+
+#btnModoFacil {
+    background-color: rgba(15, 155, 55, 1);
+}
+#btnModoFacil:hover {
+    background-color: rgba(10, 145, 50, 1);
+}
+
+#btnModoDificil {
+    background-color: rgba(205, 65, 65, 1);
+}
+#btnModoDificil:hover {
+    background-color: rgba(195, 60, 60, 1);
+}
+
+.blocoPrincipal p {
+    font-size: large;
+}

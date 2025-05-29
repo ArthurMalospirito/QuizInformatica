@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="stylePerguntas.css">
+
+    <title>Perguntas</title>
+
+</head>
+<body>
+    
+    <main>
+
+        <section class="blocoPrincipal">
+
+            <div class="containerInfo">
+                <a href="../index.html"><img src="../imagens/seta.png" alt=""></a>
+
+                <h2 id="pontuacao">Pontuação: 0</h2>
+
+                <h3 id="numeroPergunta">1/10</h3>
+            </div>
+
+            <div class="containerPergunta">
+
+                <h3 id="pergunta">O que é Hardware?</h3>
+
+            </div>
+
+            <div class="containerRespostas">
+
+                <button id="btnResposta1" value="1" onclick="responder(this)">A parte que se faz pesquisas do computador</button>
+
+                <button id="btnResposta2" value="2" onclick="responder(this)">A parte do contole lógico do computador</button>
+
+                <button id="btnResposta3" value="3" onclick="responder(this)">A parte física do computador</button>
+
+                <button id="btnResposta4" value="4" onclick="responder(this)">Um aplicativo que acelera o funcionamento do computador</button>
+
+            </div>
+
+            <button id="btnProximaPergunta" onclick="novaPergunta()">Próxima pergunta</button>
+
+        </section>
+
+
+    </main>
+
+
+
+    <script src="scriptPerguntas.js"></script>
+
+</body>
+</html>
